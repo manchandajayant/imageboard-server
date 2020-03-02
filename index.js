@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const db = require("./db");
+const image = require("./Image/model");
 
 const port = process.env.PORT || 4000;
 
